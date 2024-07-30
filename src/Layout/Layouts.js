@@ -12,6 +12,7 @@ export default function Layouts() {
           <NavLink className="text-white capitalize pr-4 text-sm font-sans font-bold" to="prices">Prices</NavLink>
           <NavLink className="text-teal-400  capitalize pr-4 text-sm font-sans font-bold" to="groups">Groups</NavLink>
           <NavLink className="text-white capitalize pr-4 text-sm font-sans font-bold" to="contact-us" >Contact Us</NavLink>
+          <NavLink className="text-white capitalize pr-4 text-sm font-sans font-bold" to="connect" >Connect </NavLink>
         </nav>
 
       </header>

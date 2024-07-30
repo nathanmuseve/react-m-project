@@ -19,6 +19,7 @@ import Cynthia from "./components/landingPage/Cynthia";
 import Fideli from "./components/landingPage/Fideli";
 import James from "./components/landingPage/James";
 import Shem from "./components/landingPage/Shem";
+import Connect from "./components/landingPage/Connect";
 
 
 function App() {
@@ -31,6 +32,7 @@ function App() {
         <Route path="our-history" element={<OurHistory />} />
         <Route path="prices" element={<Prices />} />
         <Route path="contact-us" element={<Contact />} />
+        <Route path="connect" element={<Connect />} />
 
         {/* Nested routes  */}
         <Route path="groups" element={<Groups />} > 
