@@ -1,6 +1,7 @@
 import { Link } from "react-router-dom";
 import OurGetStaeted from "./OurGetStaeted";
 import OurPricing from "./OurPricing";
+import Footer from "./Footer";
 
 export default function Prices() {
   return (
@@ -68,6 +69,8 @@ export default function Prices() {
       </div>
       <p className="text-center p-5">Haven't got your answer?<Link className="text-teal-400 hover:text-teal-600 " to="/contact-us">Contact our support now</Link> </p>
       </div>
+
+      <Footer />
     </div>
   )
 }
